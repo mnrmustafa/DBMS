@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+<div class="contactpage">
+
+  <h1>Connect with Me</h1>
+  <form class="" action="/contact" method="post">
+    <div class="form-group">
+      <label class="contactContent">Name</label>
+      <input class="form-control" type="text" name="Name">
+      <label class="contactContent">Email</label>
+      <input class="form-control" type="text" name="Mail">
+      <label class="contactContent">Message</label>
+      <textarea class="form-control" name="Message" rows="5" cols="30"></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit" name="button">Send</button>
+  </form>
+
+</div>
+
+<%- include("partials/footer"); -%>

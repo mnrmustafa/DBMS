@@ -1,0 +1,74 @@
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.homepage{
+  padding: 6vh;
+}
+.aboutpage{
+  padding: 6vh;
+}
+.contactpage{
+  padding:6vh;
+}
+.composepage{
+  padding: 6vh;
+}
+.postpage{
+  padding: 6vh;
+}
+
+.contactContent{
+  padding-top:4.5vh;
+}
+.form-control{
+  padding-bottom:4vh;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family: "Montserrat";
+  color:black;
+}
+.navbar {
+  background-color: #2980b9 !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #2980b9;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
